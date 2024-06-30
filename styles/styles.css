@@ -605,3 +605,104 @@ input::placeholder {
     transform: scale(1);
     transition: all 0.5s;
 }
+
+.footer {
+    max-width: 1536px;
+    height: 210px;
+    padding: 40px 192px 40px 192px;
+    gap: 24px;
+    display: grid;
+    background-color: #111827;
+    margin-top: 48px;
+}
+
+.footer__first-block {
+    width: 1152px;
+    height: 98px;
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.footer__logo {
+    width: 399px;
+    height: 98px;
+    gap: 8px;
+    display: grid;
+}
+
+.footer__logo-title {
+    width: 305px;
+    height: 74px;
+    gap: 4px;
+    display: flex;
+}
+
+.logo-title__name {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAFB;
+    margin: auto;
+}
+
+.footer__nav-list {
+    color: #F9FAFB;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 109px 47px 77px 67px;
+    gap: 24px;
+    text-align: center;
+}
+
+.footer__nav-list li {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer__telephone {
+    font-size: 29.6px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer__info {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer__main-contacts {
+    color: #F9FAFB;
+}
+
+.footer__license {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #F9FAFB;
+    display: flex;
+    gap: 4px;
+}
+
+.footer__second-block {
+    width: 1152px;
+    height: 48px;
+    gap: 0px;
+}
+
+.second-block__title-one {
+    font-size: 12px;
+    font-weight: 300;
+    color: #4B5563;
+}
+
+.footer__nav-list li:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.footer__nav-list li:not(:hover) {
+    transform: scale(1);
+    transition: all 0.5s;
+}
